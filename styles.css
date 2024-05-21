@@ -1,0 +1,217 @@
+body {
+    background-color: black;
+}
+
+.header {
+    background-image: url(./assets/background-image.jpg);
+
+}
+
+
+.img-netflixIcon {
+    height: 100px;
+    width: 160px;
+}
+
+
+
+.main-container {
+    height: 707px;
+    width: 450px;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+margin: auto;
+
+}
+
+h1 {
+    margin-left: 70px;
+    margin-top: 50px;
+    font-size: 2rem;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-form {
+    height: 30px;
+    width: 317px;
+    margin-left: 53px;
+    background: transparent;
+    color: white;
+    line-height: 1.5;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1 rem;
+    border-radius: 5px;
+
+}
+
+.button {
+    height: 45px;
+    width: 337px;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    border: 0;
+    align-items: center;
+    border-radius: 0.25rem;
+    line-height: 1;
+
+}
+
+h4 {
+    text-align: center;
+    color: white;
+    margin-top: -8px;
+}
+
+.sign-in {
+    margin-top: -30px;
+    color: rgb(255, 255, 255);
+    border-radius: 0.25rem;
+    text-align: center;
+    background: rgba(128, 128, 128, 0.3);
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    margin-top: -6px;
+}
+
+.remember {
+    display: flex;
+    margin-left: 60px;
+    margin-top: -22px;
+    font-size: 18px;
+
+}
+
+.footer {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: rgb(255, 255, 255);
+    ;
+    font-size: 16px;
+}
+
+.input {
+    height: 20px;
+    width: 35px;
+}
+
+.checkbox {
+    color: white;
+
+}
+
+.text {
+    color: white;
+    margin-left: 75px;
+    margin-top: -5px;
+}
+
+.message {
+    color: #8c8c8c;
+    ;
+    margin-left: 40px;
+    margin-top: -20px;
+    font-size: 13px;
+    font-weight: 504;
+
+}
+
+.main-footer {
+
+    color: rgba(255, 255, 255, 0.7);
+    height: 120px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 30px;
+}
+
+.code {
+    padding-top: 60px;
+    padding-left: 40px;
+    width: 70%;
+  margin: auto;
+}
+
+.footer-list {
+
+    display: inline-flex;
+    list-style-type: none;
+    flex-direction: row;
+    /* column-gap: 300px; */
+    row-gap: 30px;
+    margin: auto;
+    width: 70%;
+    flex-wrap: wrap;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 16px;
+}
+
+.footer-list li {
+    flex: 0 0 calc(25% - 0.3rem);
+}
+
+.footer-list li a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.down-footer {
+    padding-inline: 3rem;
+    padding-block: 3rem;
+    display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+
+
+.img-netflixIcon {
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+.language {
+    width: 70%;
+    margin: auto;
+    padding-left: 30px;
+}
+
+.language select{
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+
+@media screen and (max-width:600px) {
+    .header {
+        background-image: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .img-netflixIcon{
+        height: 30px;
+        width: 100px;
+    }
+
+    .header {
+        background-color: black;
+        flex-direction: column;
+    }
+}
